@@ -43,5 +43,5 @@ case "$TERM" in
         ;;
 esac
 
-**3. Lição Final**
+### 3. Lição Final
 A personalização do shell depende da sintaxe correta do shell ativo. No Zsh, a solução elegante e funcional para o prompt e o título da janela é usar os recursos nativos de prompt: $PROMPT para a linha de comando e print -Pn dentro da função precmd() para a barra de títulos.
